@@ -1,0 +1,106 @@
+table, th.myForm
+{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:5px;
+    margin: auto;
+}
+td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:5px;
+    margin: auto;
+}
+table.db-table
+{
+    border-right:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+}
+table.db-table th
+{
+    background:#eee;
+    padding:5px;
+    border-left:2px solid #ccc;
+    border-top:2px solid #ccc;
+    width:25%;
+    text-align:left;
+}
+table.db-table td
+{
+    padding:5px;
+    border-left:2px solid #ccc;
+    border-top:2px solid #ccc;
+    text-align:center ;
+}
+td.title
+{
+    background-color:#151848;
+    color:white;
+}
+label{
+    display:inline-block;
+    text-align: left;
+    font-family:Arial;
+    font-size:10pt;
+}
+textarea.a
+{
+    font-family:Arial;
+    font-size:10pt;
+}
+
+input.a{
+    width: 150px;
+}
+input{
+    moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+input{
+    width: 100%;
+}
+h4, h2
+{
+    text-align: center;
+}
+
+div#hidden
+{
+    display: none;
+}
+div#middle
+{
+    text-align:center;
+}
+.myForm
+{
+    margin:0 auto;
+    width: 816px;
+    padding: 1em;
+    border: 1px solid #CCC;
+}
+
+.aapLogo
+{
+    width:100px;
+    height :63.9375px;
+}
+
+.BorderTopNone
+{
+    border-top-color:white;
+}
+
+.BorderBottomNone
+{
+    border-bottom-color:white;
+}
+.NoBorder
+{
+    border-style: none;
+}
+
+

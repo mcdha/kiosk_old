@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 08 25, 20, 6:13:28 PM
+    Author     : Rosa
+*/
+
+.radio {
+    display: inline-block;
+    width: 100%;
+    border-radius: 0;
+    background: lightblue;
+    box-sizing: border-box;
+    border: 2px solid lightgrey;
+    cursor: pointer;
+    margin: 8px 25px 8px 25px
+}
+.pay {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #673AB7;
+    margin: 10px 20px 10px 0px;
+    cursor: pointer;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.2)
+}
+
+.gray {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+    color: #E0E0E0
+}
+
+.gray .pay {
+    box-shadow: none
+}
+
+
+.btn-pay {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    color: #ffffff !important;
+    font-weight: bold
+}
+
+.btn-pay:hover {
+    background-color: #002d6a;
+}    
